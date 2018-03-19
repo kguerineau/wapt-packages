@@ -1,0 +1,66 @@
+52.0
+====
+
+NEW
+	Added support for WebAssembly, an emerging standard that brings near-native performance to Web-based games, apps, and software libraries without the use of plugins.
+	Added automatic captive portal detection, for easier access to Wi-Fi hotspots. When accessing the Internet via a captive portal, Firefox will alert users and open the portal login page in a new tab.
+	Added user warnings for non-secure HTTP pages with logins. Firefox now displays a “This connection is not secure” message when users click into the username and password fields on pages that don’t use HTTPS.
+	Implemented the Strict Secure Cookies specification which forbids insecure HTTP sites from setting cookies with the "secure" attribute. In some cases, this will prevent an insecure site from setting a cookie with the same name as an existing "secure" cookie from the same base domain.
+	Enhanced Sync to allow users to send and open tabs from one device to another.
+FIXED
+	Various security fixes
+	Improved text input for third-party keyboard layouts on Windows. This will address some keyboard layouts that
+	have chained dead keys
+	input two or more characters with a non-printable key or a dead key sequence
+	input a character even when a dead key sequence failed to compose a character
+CHANGED
+	Removed support for Netscape Plugin API (NPAPI) plugins other than Flash. Silverlight, Java, Acrobat and the like are no longer supported.
+	Removed Battery Status API to reduce fingerprinting of users by trackers
+	Improved experience for downloads:
+	Notification in the toolbar when a download fails
+	Quick access to five most recent downloads rather than three
+	Larger buttons for canceling and restarting downloads
+	Display (but allow users to override) an “Untrusted Connection” error when encountering SHA-1 certificates that chain up to a root certificate included in Mozilla’s CA Certificate Program. (Note: Firefox continues to permit SHA-1 certificates that chain to manually imported root certificates.) Read more about the Mozilla Security Team’s plans to deprecate SHA-1
+	Migrated Firefox users on Windows XP and Windows Vista operating systems to the extended support release (ESR) version of Firefox.
+	When not using Direct2D on Windows, Skia is used for content rendering
+
+
+51.0.1
+======
+NEW
+	Users can view passwords in the save password prompt before saving them
+	Added a zoom button in the URL bar:
+	Displays percent above or below 100 percent when a user has changed the page zoom setting from the default
+	Lets users return to the default setting by clicking on the button
+	Improved video performance for users without GPU acceleration for less CPU usage and a better full screen experience
+	Firefox will save passwords even in forms that do not have “submit” events
+	Added support for FLAC (Free Lossless Audio Codec) playback
+	Added support for WebGL 2, with advanced graphics rendering features like transform feedback, improved texturing capabilities, and a new sophisticated shading language
+	A warning is displayed when a login page does not have a secure connection
+	Added Georgian (ka) and Kabyle (kab) locales
+	An even faster E10s! Tab Switching is better!
+	Improved reliability of browser data sync
+	Remove Belarusian (be) locale
+FIXED
+	Reference link to 51.0 release notes
+	Geolocation not working on Windows (Bug 1333516)
+	Multiprocess incompatibility did not correctly register with some add-ons (Bug 1333423)
+
+unresolved 
+	Crash with some older versions of Forcepoint/Websense
+
+50.1.0
+======
+fixed
+	Various security fixes
+unresolved
+	Due to an Apple touch bar bug, Firefox on recent MacBook Pro may crash when open for long periods or crash after resuming from sleep. Apple reports to have a fix for this in the currently unreleased OS X 10.12.3
+
+Version 50.0.1
+==============
+fixed
+	Various security fixes
+	Security vulnerabilities fixed in Firefox 50.0.1
+	FIXED IN Firefox 50.0.1 #CVE-2016-9078: data: URL can inherit wrong origin after an HTTP redirect
+
+Firefox crashes with 3rd party Chinese IME when using IME text

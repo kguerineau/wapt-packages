@@ -1,0 +1,27 @@
+package           : tis-firefox
+version           : 59.0-1
+architecture      : all
+section           : base
+priority          : optional
+maintainer        : TIS <technique@tranquil-it-systems.fr>
+description       : Firefox Web Browser French
+depends           : 
+conflicts         : tis-firefox-en,tis-firefox-esr
+maturity          : 
+locale            : fr
+target_os         : windows
+min_os_version    : 6.1
+max_os_version    : 
+min_wapt_version  : 1.3.12
+sources           : https://srvdev.ad.tranquil.it/sources/tis-firefox-wapt
+installed_size    : 153944064
+impacted_process  : firefox.exe
+description_fr    : Navigateur web Mozilla Firefox Français
+description_pl    : 
+description_de    : 
+description_es    : 
+signer            : TRANQUIL IT SYSTEMS
+signer_fingerprint: 8c875f0c5e3885858fa79bb63419a54026a6ec6b64908694f4b94643153650fb
+signature         : kRQ0fOwWSkNAhtifOoJtkpZkLME58txR13DpQL2aNqkQCUZ8S//Lt06IV3PeZx4KklMn22Z0FiTpm8QkCoOfIJErcq/5n0P5FaLzw4FcF6GRIVBMRke6Rwffl0x7+1JHw3jiRzxxJ5MH9Qxsg1oijLEePwfEQYqZw3LCGkFZAe5A9VE7t4nN0cksN7YqeOQ9DS6AkpXxEK1Y8/TiQhUpYZ8EbmhwK2PyvfYX8+L/9l293ITeOllovZaRt9VjcxobPSIDHSkA7p/lqZNocB9e019i49WBJ5FKMNt/3ETHNgBtq5YPIQG0tTubHyXmwKdJE1hrB5LF/mK22pPc4x1F0g==
+signature_date    : 20180313-172202
+signed_attributes : package,version,architecture,section,priority,maintainer,description,depends,conflicts,maturity,locale,target_os,min_os_version,max_os_version,min_wapt_version,sources,installed_size,impacted_process,description_fr,description_pl,description_de,description_es,signer,signer_fingerprint,signature_date,signed_attributes
