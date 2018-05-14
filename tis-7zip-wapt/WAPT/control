@@ -1,0 +1,27 @@
+package           : tis-7zip
+version           : 18.05.00.0-0
+architecture      : all
+section           : base
+priority          : optional
+maintainer        : TIS
+description       : package for 7-Zip (Igor Pavlov)
+depends           :
+conflicts         :
+maturity          :
+locale            : all
+target_os         : windows
+min_os_version    : 5.1
+max_os_version    :
+min_wapt_version  :
+sources           : http://www.7-zip.org/download.html
+installed_size    :
+impacted_process  : 7zFM.exe
+description_fr    : paquet pour 7-Zip (Igor Pavlov)
+description_pl    :
+description_de    :
+description_es    :
+signer            :
+signer_fingerprint:
+signature         :
+signature_date    :
+signed_attributes :
