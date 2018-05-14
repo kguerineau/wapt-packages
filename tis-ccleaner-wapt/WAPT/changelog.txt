@@ -1,0 +1,7 @@
+v5.23.5808(18 Oct 2016)- Improved Microsoft Edge and Internet Cache cleaning
+  - Updated Microsoft Edge Tab cleaning
+  - Improved Firefox History and Session cleaning
+  - Optimized Silent Update functionality (Professional only)
+  - Updated various translations
+  - Minor bug fixes
+  - Minor GUI improvementsView full version history...
