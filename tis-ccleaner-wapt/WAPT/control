@@ -20,8 +20,8 @@ description_fr    : utilitaire de choix pour nettoyer, réparer et optimiser rap
 description_pl    :
 description_de    :
 description_es    :
-signer            : TIS KG
-signer_fingerprint: c2319026571e05b18315ac0ce9d62b7e4267166ba4189dcb0f67c3b308632a30
-signature         : ITQZdBbUBIAmrJE4YR+hhc17CVzDZqFL4ejvpE2fI9cBNGqVg7j3sCMx86yEJPQmeOL6FHJzG+rKXabYDcObyzEIKf00bY+d4BYsP+7XU1py5OeH+ZYjDGdv5XC8oQV6IAo3I04uitX/7KWrglVgcUOYxHdHwz/yjWPOW7VPAMy7pjA3gclfSmrPrLdCkglUbJdlNDBdw7bWyvkpiSZ3DGNiU+b6wAW8IJGaon2A+0k+klYvlmE2tM3Y/SBp9L+Bj4dZPV1SD6+i4N1LWjInxjKMeo1Qt0eJqwq13T6f62G/x2it2AUtB7sHrXpPxqgjiAE8Rf0ZR03KE+1kP6in+w==
-signature_date    : 20180307-121344
+signer            : 
+signer_fingerprint: 
+signature         : 
+signature_date    : 
 signed_attributes : package,version,architecture,section,priority,maintainer,description,depends,conflicts,maturity,locale,target_os,min_os_version,max_os_version,min_wapt_version,sources,installed_size,impacted_process,signer,signer_fingerprint,signature_date,signed_attributes
