@@ -1,0 +1,28 @@
+package           : tis-fusioninventory
+version           : 2.4-0
+architecture      : all
+section           : base
+priority          : optional
+maintainer        : Kevin Guerineau
+description       : FusionInventory is a software for inventory computers.
+depends           :
+conflicts         :
+maturity          :
+locale            : all
+target_os         : windows
+min_os_version    : 5.0
+max_os_version    :
+min_wapt_version  :
+sources           : https://github.com/fusioninventory/fusioninventory-agent/releases
+installed_size    :
+impacted_process  :
+description_fr    : FusionInventory est un logiciel servant à l'inventaire et la maintenance d'un parc informatique
+description_pl    :
+description_de    :
+description_es    :
+audit_schedule    :
+signer            : TIS KG
+signer_fingerprint: c2319026571e05b18315ac0ce9d62b7e4267166ba4189dcb0f67c3b308632a30
+signature         : vjwDcxzWO5BwPabx9GEHieJbpItG5980LTYz81S6iN+7pA0LgklPOsGfgjVXDCZwOM5gyyTm6hNBScpQioN87ISyubypm8XS3BPFGjOq44yn9ycGL2WVSxFZpMVmGIUmiCe4dUkQOL7ObZB2cmPZVbqFxExhV4d3RY5rddHQmETbni6KD/DFHN1VqYIDqgimqptAZAqkoVwc083GR6BtjIiZ1reqCpWVdRQ+3gkpFVX6y/GZ1UOnztzlHivfwpdadd10t/0DDZJBGJBiPhDsscLVn7LPCEPFd7NPFKa14kGcmS104usysBx1qP7+6Q8YYMM2HWeR25I6HJtW5+qy2g==
+signature_date    : 20180306-122610
+signed_attributes : package,version,architecture,section,priority,maintainer,description,depends,conflicts,maturity,locale,target_os,min_os_version,max_os_version,min_wapt_version,sources,installed_size,impacted_process,signer,signer_fingerprint,signature_date,signed_attributes
